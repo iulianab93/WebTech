@@ -1,0 +1,331 @@
+body{
+  font: 15px/1.5 Lucida;
+  padding:0;
+  margin:0;
+  
+}
+
+/* Global *//* Global *//* Global *//* Global *//* Global */
+/* Global *//* Global *//* Global *//* Global *//* Global */
+/* Global *//* Global *//* Global *//* Global */
+
+.container{ 
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.rightCorner{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+.page-title{
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffb2b2;  
+}
+.button_1{
+  height:38px;
+  background: #ffb2b2 ;
+  border:0;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+audio{
+  float: right;
+  margin-top: 50px;
+}
+
+p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+
+/* Header **/
+/* Header **//* Header **//* Header **//* Header **//* Header **//* Header **/
+/* Header **//* Header **//* Header **//* Header **//* Header **//* Header **/
+/* Header **//* Header **//* Header **//* Header **//* Header **/
+
+header{
+  background:#262626;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom: #ffb2b2 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #shines{
+  float:left;
+}
+
+header #shines h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color: #ffb2b2;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* VIDEO *//* VIDEO *//* VIDEO *//* VIDEO *//* VIDEO */
+/* VIDEO *//* VIDEO *//* VIDEO *//* VIDEO *//* VIDEO */
+/* VIDEO *//* VIDEO *//* VIDEO *//* VIDEO *//* VIDEO */
+
+#background{
+  min-height:400px;
+  background:black;
+  text-align:center;  
+}
+
+#myVideo{
+  min-height:400px;
+  width: 100%;
+  right: 0;
+}
+
+#myBtn {
+  width: 50px;
+  height: 28px;
+  border-radius: 10px;
+  font-size: 10px;
+  background:none;
+  color: #ffb2b2;
+  cursor: pointer; 
+  float:left;
+  margin-top: 20px;
+}
+
+#myBtn:hover {
+  background:hsl(0, 40%, 85%) ;
+  color: black;
+}
+
+#background h1{
+  margin-top:10px;
+  font-size:55px;
+  margin-bottom:10px;
+  color:white
+}
+
+#background p{
+  font-size:20px;
+  color:white;
+}
+
+/* Subscribe me *//* Subscribe me *//* Subscribe me *//* Subscribe me *//* Subscribe me *//* Subscribe me */
+/* Subscribe me *//* Subscribe me *//* Subscribe me *//* Subscribe me *//* Subscribe me */
+/* Subscribe me *//* Subscribe me *//* Subscribe me */
+
+#subscribeMe{
+  padding:15px;
+  color:#ffffff;
+  background:#262626;
+  border-top: #ffb2b2 3px solid;
+}
+
+
+#subscribeMe h1{
+  float:left;
+}
+
+#subscribeMe form {
+  float:right;
+  margin-top:15px;
+}
+
+#subscribeMe input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+.social{
+  float: right;
+  margin-top:15px;
+}
+
+/* Options *//* Options *//* Options *//* Options *//* Options */
+/* Options *//* Options *//* Options *//* Options *//* Options */
+/* Options *//* Options *//* Options *//* Options *//* Options */
+#options{
+  margin-top:20px;
+}
+
+#options .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#options .box img{
+  width:150px;
+}
+
+/* Sidebar *//* Sidebar *//* Sidebar *//* Sidebar *//* Sidebar *//* Sidebar */
+/* Sidebar *//* Sidebar *//* Sidebar *//* Sidebar */
+/* Sidebar *//* Sidebar *//* Sidebar *//* Sidebar *//* Sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:95px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{     
+  width:90%;
+  padding:5px;
+}
+
+a{
+  text-decoration: none;
+  color:  #ffb2b2;
+}
+
+a:hover{
+  color:white;
+}
+
+/* Main-col *//* Main-col *//* Main-col *//* Main-col *//* Main-col *//* Main-col */
+/* Main-col *//* Main-col *//* Main-col *//* Main-col *//* Main-col */
+/* Main-col *//* Main-col */
+
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Slider */
+/* Slider *//* Slider *//* Slider *//* Slider *//* Slider *//* Slider */
+/* Slider *//* Slider *//* Slider *//* Slider *//* Slider *//* Slider *//* Slider *//* Slider */
+
+.slider {
+	width: 1024px;
+  float: left;
+  
+}
+
+.slider-wrapper {
+	width: 60%;
+	height: 500px;
+  position: relative;
+  float: left;   
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+
+/* Services *//* Services *//* Services *//* Services *//* Services *//* Services *//* Services *//* Services */
+/* Services *//* Services *//* Services *//* Services *//* Services *//* Services */
+/* Services *//* Services *//* Services *//* Services *//* Services */
+
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  padding:10px;
+  margin-top:10px;
+  color:#ffffff;
+  background-color:#262626;
+  text-align: center;
+  border-top: #ffb2b2 3px solid;
+}
+
+/* Media Queries *//* Media Queries *//* Media Queries *//* Media Queries *//* Media Queries *//* Media Queries */
+/* Media Queries *//* Media Queries *//* Media Queries *//* Media Queries *//* Media Queries */
+/* Media Queries *//* Media Queries *//* Media Queries */
+
+@media(max-width: 768px){
+  header #shines,
+  header nav,
+  header nav li,#subscribeMe h1,
+  #subscribeMe form,#subscribeMe .social,#options .box, 
+  article#main-col, .slider, aside#sidebar {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  
+  audio { width: 210px; display: block; margin:20px; }
+
+  .slider{
+    width: 310px;
+    height: 410px; 
+    
+  }
+
+
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #background h1{
+    margin-top:40px;
+  }
+
+  #subscribeMe button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #subscribeMe form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
